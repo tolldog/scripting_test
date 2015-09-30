@@ -1,0 +1,432 @@
+NetApp Release 8.1.2P4 7-Mode: Fri Apr 26 19:57:25 PDT 2013
+	System ID: 0118053856 (o900sal1900); partner ID: 0118053919 (o900sal1800)
+	System Serial Number: 3092463 (o900sal1900)
+	System Rev: A3
+	System Storage Configuration: Mixed-Path HA
+	System ACP Connectivity: NA
+	slot 0: System Board 2.4 GHz (System Board XII A1)
+                Model Name:         FAS3040
+                Part Number:        110-00045
+                Revision:           A1
+                Serial Number:      430207
+                BIOS version:       2.5.0
+                Loader version:     1.8
+                Agent FW version:   20
+                LCD FW version:     1.7
+                Processors:         2
+                Processor ID:       0x20f51
+                Microcode Version:  0x0
+                Processor type:     Opteron           
+                Memory Size:        4096 MB
+                Memory Attributes:  Node Interleaving
+                                    Bank Interleaving
+                                    Hoisting
+                                    Chipkill ECC
+	Remote LAN Module           Status: Online
+		Part Number:        110-00057
+		Revision:           D0
+		Serial Number:      426764
+		Firmware Version:   4.1
+		Mgmt MAC Address:   00:A0:98:0A:31:C8
+		Ethernet Link:      up, 100Mb, full duplex, auto-neg complete
+		Using DHCP:         no
+	IPv4 configuration:
+		IP Address:         10.253.252.213
+		Netmask:            255.255.252.0
+		Gateway:            10.253.252.1
+	IPv6 configuration:         Disabled
+	slot 0: BGE 10/100/1000 Ethernet Controller
+		e0a MAC Address:    00:a0:98:0a:b9:c7 (auto-1000t-fd-up)
+		e0b MAC Address:    00:a0:98:0a:b9:c6 (auto-1000t-fd-up)
+		e0c MAC Address:    00:a0:98:0a:b9:c5 (auto-1000t-fd-up)
+		e0d MAC Address:    00:a0:98:0a:b9:c4 (auto-unknown-down)
+                Device Type:        BCM5780C
+                        memory mapped I/O base 0xfe230000, size 0x10000
+                        memory mapped I/O base 0xfe220000, size 0x10000
+                        memory mapped I/O base 0xfe210000, size 0x10000
+                        memory mapped I/O base 0xfe200000, size 0x10000
+                        memory mapped I/O base 0xfd930000, size 0x10000
+                        memory mapped I/O base 0xfd920000, size 0x10000
+                        memory mapped I/O base 0xfd910000, size 0x10000
+                        memory mapped I/O base 0xfd900000, size 0x10000
+        slot 0: ATA/IDE Adapter 0e (0x000001f0)
+                0e.0   STEC NACF1GM1U-B11   01/17/07  977MB  512B/sect (STI1M28207270040153)
+                        memory-mapped I/O base 0x000001f0, size 0x8
+                        memory-mapped I/O base 0x000003f4, size 0x4
+                        memory-mapped I/O base 0x00000170, size 0x8
+                        memory-mapped I/O base 0x00000374, size 0x4
+                        memory-mapped I/O base 0x00001c00, size 0x10
+	slot 0: FC Host Adapter 0a (QLogic 2432 rev. 2, L-port, <OFFLINE (hard)>)
+		Firmware rev:      5.4.100
+		Host Loop Id:      0
+		FC Node Name:      5:00a:098200:023847
+		FC Port Name:      5:00a:098200:023847
+		SFP Vendor:        FINISAR CORP.
+		SFP Part Number:   FTLF8524P2BNV
+		SFP Serial Number: PCH3KNW
+		SFP Capabilities:  1, 2 or 4 Gbit
+		Link Data Rate:    N/A
+                        I/O base 0x0000000000006000, size 0x100
+                        memory mapped I/O base 0xfe500000, size 0x4000
+        slot 0: Fibre Channel Target Host Adapter 0b
+                (QLogic 2432 (2462) rev. 2, <ONLINE>)
+                Firmware rev:      5.5.2
+                Host Port Addr:    052800
+                FC Nodename:       50:0a:09:80:87:b9:5b:e0 (500a098087b95be0)
+                FC Portname:       50:0a:09:85:97:b9:5b:e0 (500a098597b95be0)
+                Connection:        PTP, Fabric
+                Switch Port:       n000fcl0002:1/26
+		SFP Vendor Name:   FINISAR CORP.
+		SFP Vendor P/N:    FTLF8524P2BNV
+		SFP Vendor Rev:    A
+		SFP Serial No.:    PCH3X1B
+		SFP Connector:     LC
+		SFP Capabilities:  1, 2, 4 Gbit/Sec
+                        I/O base 0x0000000000006400, size 0x100
+                        memory mapped I/O base 0xfe504000, size 0x4000
+	slot 0: FC Host Adapter 0c (QLogic 2432 rev. 2, L-port, <OFFLINE (hard)>)
+		Firmware rev:      5.4.100
+		Host Loop Id:      0
+		FC Node Name:      5:00a:098000:023847
+		FC Port Name:      5:00a:098000:023847
+		SFP Vendor:        FINISAR CORP.
+		SFP Part Number:   FTLF8524P2BNV
+		SFP Serial Number: PCH411F
+		SFP Capabilities:  1, 2 or 4 Gbit
+		Link Data Rate:    N/A
+                        I/O base 0x0000000000002000, size 0x100
+                        memory mapped I/O base 0xfda00000, size 0x4000
+        slot 0: Fibre Channel Target Host Adapter 0d
+                (QLogic 2432 (2462) rev. 2, <ONLINE>)
+                Firmware rev:      5.5.2
+                Host Port Addr:    c41900
+                FC Nodename:       50:0a:09:80:87:b9:5b:e0 (500a098087b95be0)
+                FC Portname:       50:0a:09:82:97:b9:5b:e0 (500a098297b95be0)
+                Connection:        PTP, Fabric
+                Switch Port:       n000fcl0001:1/26
+		SFP Vendor Name:   FINISAR CORP.
+		SFP Vendor P/N:    FTLF8524P2BNV
+		SFP Vendor Rev:    A
+		SFP Serial No.:    PCH3UT2
+		SFP Connector:     LC
+		SFP Capabilities:  1, 2, 4 Gbit/Sec
+                        I/O base 0x0000000000002400, size 0x100
+                        memory mapped I/O base 0xfda04000, size 0x4000
+	slot 1: FC Host Adapter 1a (LSI Logic 949E rev. A.1, L-port, <UP>)
+		Board name:        LSI7404EP-LC
+		Serial Number:     P000561907
+		Firmware rev:      1.03.225.00
+		Host Loop Id:      7
+		FC Node Name:      2:000:00062b:12f87f
+		FC Port Name:      1:000:00062b:12f87f
+		SFP Vendor:        PICOLIGHT
+		SFP Part Number:   PLRXPL-VE-SG4-26
+		SFP Serial Number: C640RR4UU
+		SFP Capabilities:  1, 2 or 4 Gbit
+		Link Data Rate:    4 Gbit
+                 16  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM25D4K00009814D6SE)
+                 17  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM24YCE00009814D62J)
+                 18  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM24WL700009814D7PD)
+                 19  : NETAPP   X279_HVPBP288F15 NA02 272.0GB 520B/sect (JLWD7ZGC)
+                 20  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM2460K00009814D5AZ)
+                 21  : NETAPP   X279_HVIPB288F15 NA01 272.0GB 520B/sect (JHVWEW8C)
+                 22  : NETAPP   X279_HVIPB288F15 NA01 272.0GB 520B/sect (JHVA5S5C)
+                 23  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM25MRF00009814CS4B)
+                 24  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM24WYS00009814D5EK)
+                 25  : NETAPP   X279_HVIPB288F15 NA01 272.0GB 520B/sect (JHW2XPTC)
+                 26  : NETAPP   X279_HVIPB288F15 NA01 272.0GB 520B/sect (JHW3X30C)
+                 27  : NETAPP   X279_HVIPB288F15 NA01 272.0GB 520B/sect (JHW3B9PC)
+                 28  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM24WX300009814D584)
+                 29  : NETAPP   X279_S15K7288F15 NA06 272.0GB 520B/sect (6SJ05DJD0000B113JAR5)
+                 32  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM1W10P00009808RCN2)
+                 33  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM1W12800009808S8LP)
+                 34  : NETAPP   X279_HVIPB288F15 NA01 272.0GB 520B/sect (JHW3U0RC)
+                 35  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM1W1Y400009803HBFK)
+                 36  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM1NKMA00009810AJJ0)
+                 37  : NETAPP   X279_S15K7288F15 NA06 272.0GB 520B/sect (6SJ7Z1FQ0000B4339Q70)
+                 38  : NETAPP   X279_S15K7288F15 NA06 272.0GB 520B/sect (6SJ7Z0JP0000B433A6LG)
+                 39  : NETAPP   X279_S15K7288F15 NA06 272.0GB 520B/sect (6SJ7T1KX0000B42907H2)
+                 40  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM1NKM800009810AJK4)
+                 41  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM1VQD700009809VV41)
+                 42  : NETAPP   X279_S15K7288F15 NA06 272.0GB 520B/sect (6SJ7YY7S0000B4339X7H)
+                 43  : NETAPP   X279_S15K7288F15 NA03 272.0GB 520B/sect (Failed)
+                 44  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM1VQPN000098096QEU)
+                 45  : NETAPP   X279_S15K7288F15 NA03 272.0GB 520B/sect (6SJ5HT3N0000B24501XM)
+		Shelf 1: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 2: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+                        I/O base 0x0000000000008400, size 0x100
+                        memory mapped I/O base 0xfe724000, size 0x4000
+                        memory mapped I/O base 0xfe710000, size 0x10000
+	slot 1: FC Host Adapter 1b (LSI Logic 949E rev. A.1, L-port, <UP>)
+		Board name:        LSI7404EP-LC
+		Serial Number:     P000561907
+		Firmware rev:      1.03.225.00
+		Host Loop Id:      7
+		FC Node Name:      2:000:00062b:12f87e
+		FC Port Name:      1:000:00062b:12f87e
+		SFP Vendor:        PICOLIGHT
+		SFP Part Number:   PLRXPL-VE-SG4-26
+		SFP Serial Number: C640RR571
+		SFP Capabilities:  1, 2 or 4 Gbit
+		Link Data Rate:    2 Gbit
+                 16  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8760630)
+                 17  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8760060)
+                 18  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8764549)
+                 19  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8762414)
+                 20  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8762777)
+                 21  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8763058)
+                 22  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8760987)
+                 23  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8761276)
+                 24  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8762284)
+                 25  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8763088)
+                 26  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8760143)
+                 27  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8763886)
+                 28  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8762447)
+                 29  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8762959)
+                 32  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8763590)
+                 33  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8761362)
+                 34  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8750477)
+                 35  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8760372)
+                 36  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8763070)
+                 37  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8761690)
+                 38  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8762440)
+                 39  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8760624)
+                 40  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8764220)
+                 41  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8773189)
+                 42  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8760403)
+                 43  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8763419)
+                 44  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8760114)
+                 45  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8761095)
+                 48  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0KS0JF)
+                 49  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0METDF)
+                 50  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0MD2YF)
+                 51  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0MD38F)
+                 52  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0ME47F)
+                 53  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0MBJ6F)
+                 54  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0LN4TF)
+                 55  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0M9PEF)
+                 56  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0MAERF)
+                 57  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0KVNPF)
+                 58  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0MBVWF)
+                 59  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0MBE1F)
+                 60  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0MJ9AF)
+                 61  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0L7A8F)
+		Shelf 1: AT-FCX  Firmware rev. AT-FCX A: 38  AT-FCX B: 38
+		Shelf 2: AT-FCX  Firmware rev. AT-FCX A: 38  AT-FCX B: 38
+		Shelf 3: AT-FCX  Firmware rev. AT-FCX A: 38  AT-FCX B: 38
+                        I/O base 0x0000000000008000, size 0x100
+                        memory mapped I/O base 0xfe720000, size 0x4000
+                        memory mapped I/O base 0xfe700000, size 0x10000
+	slot 1: FC Host Adapter 1c (LSI Logic 949E rev. A.1, L-port, <OFFLINE (hard)>)
+		Board name:        LSI7404EP-LC
+		Serial Number:     P000561907
+		Firmware rev:      1.03.225.00
+		Host Loop Id:      0
+		FC Node Name:      2:000:00062b:12f87d
+		FC Port Name:      1:000:00062b:12f87d
+		SFP Vendor:        PICOLIGHT
+		SFP Part Number:   PLRXPL-VE-SG4-26
+		SFP Serial Number: C640RR4UR
+		SFP Capabilities:  1, 2 or 4 Gbit
+		Link Data Rate:    N/A
+                        I/O base 0x0000000000007400, size 0x100
+                        memory mapped I/O base 0xfe624000, size 0x4000
+                        memory mapped I/O base 0xfe610000, size 0x10000
+	slot 1: FC Host Adapter 1d (LSI Logic 949E rev. A.1, L-port, <OFFLINE (hard)>)
+		Board name:        LSI7404EP-LC
+		Serial Number:     P000561907
+		Firmware rev:      1.03.225.00
+		Host Loop Id:      0
+		FC Node Name:      2:000:00062b:12f87c
+		FC Port Name:      1:000:00062b:12f87c
+		SFP Vendor:        
+		SFP Part Number:   
+		SFP Serial Number: 
+		SFP Capabilities:  
+		Link Data Rate:    N/A
+                        I/O base 0x0000000000007000, size 0x100
+                        memory mapped I/O base 0xfe620000, size 0x4000
+                        memory mapped I/O base 0xfe600000, size 0x10000
+	slot 2: FC Host Adapter 2a (LSI Logic 949E rev. A.1, L-port, <UP>)
+		Board name:        LSI7404EP-LC
+		Serial Number:     P230541908
+		Firmware rev:      1.03.225.00
+		Host Loop Id:      7
+		FC Node Name:      2:000:00062b:15f97b
+		FC Port Name:      1:000:00062b:15f97b
+		SFP Vendor:        PICOLIGHT
+		SFP Part Number:   PLRXPL-VE-SG4-26
+		SFP Serial Number: C813RR86T
+		SFP Capabilities:  1, 2 or 4 Gbit
+		Link Data Rate:    4 Gbit
+                 16  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM25D4K00009814D6SE)
+                 17  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM24YCE00009814D62J)
+                 18  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM24WL700009814D7PD)
+                 19  : NETAPP   X279_HVPBP288F15 NA02 272.0GB 520B/sect (JLWD7ZGC)
+                 20  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM2460K00009814D5AZ)
+                 21  : NETAPP   X279_HVIPB288F15 NA01 272.0GB 520B/sect (JHVWEW8C)
+                 22  : NETAPP   X279_HVIPB288F15 NA01 272.0GB 520B/sect (JHVA5S5C)
+                 23  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM25MRF00009814CS4B)
+                 24  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM24WYS00009814D5EK)
+                 25  : NETAPP   X279_HVIPB288F15 NA01 272.0GB 520B/sect (JHW2XPTC)
+                 26  : NETAPP   X279_HVIPB288F15 NA01 272.0GB 520B/sect (JHW3X30C)
+                 27  : NETAPP   X279_HVIPB288F15 NA01 272.0GB 520B/sect (JHW3B9PC)
+                 28  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM24WX300009814D584)
+                 29  : NETAPP   X279_S15K7288F15 NA06 272.0GB 520B/sect (6SJ05DJD0000B113JAR5)
+                 32  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM1W10P00009808RCN2)
+                 33  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM1W12800009808S8LP)
+                 34  : NETAPP   X279_HVIPB288F15 NA01 272.0GB 520B/sect (JHW3U0RC)
+                 35  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM1W1Y400009803HBFK)
+                 36  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM1NKMA00009810AJJ0)
+                 37  : NETAPP   X279_S15K7288F15 NA06 272.0GB 520B/sect (6SJ7Z1FQ0000B4339Q70)
+                 38  : NETAPP   X279_S15K7288F15 NA06 272.0GB 520B/sect (6SJ7Z0JP0000B433A6LG)
+                 39  : NETAPP   X279_S15K7288F15 NA06 272.0GB 520B/sect (6SJ7T1KX0000B42907H2)
+                 40  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM1NKM800009810AJK4)
+                 41  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM1VQD700009809VV41)
+                 42  : NETAPP   X279_S15K7288F15 NA06 272.0GB 520B/sect (6SJ7YY7S0000B4339X7H)
+                 44  : NETAPP   X279_S15K5288F15 NA02 272.0GB 520B/sect (3LM1VQPN000098096QEU)
+                 45  : NETAPP   X279_S15K7288F15 NA03 272.0GB 520B/sect (6SJ5HT3N0000B24501XM)
+		Shelf 1: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 2: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+                 Disk 2a.43 in Shelf: 2 Bay 11 is bypassed
+                        I/O base 0x0000000000005400, size 0x100
+                        memory mapped I/O base 0xfe424000, size 0x4000
+                        memory mapped I/O base 0xfe410000, size 0x10000
+	slot 2: FC Host Adapter 2b (LSI Logic 949E rev. A.1, L-port, <UP>)
+		Board name:        LSI7404EP-LC
+		Serial Number:     P230541908
+		Firmware rev:      1.03.225.00
+		Host Loop Id:      7
+		FC Node Name:      2:000:00062b:15f97a
+		FC Port Name:      1:000:00062b:15f97a
+		SFP Vendor:        PICOLIGHT
+		SFP Part Number:   PLRXPL-VE-SG4-26
+		SFP Serial Number: C813RR86S
+		SFP Capabilities:  1, 2 or 4 Gbit
+		Link Data Rate:    2 Gbit
+                 16  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8760630)
+                 17  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8760060)
+                 18  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8764549)
+                 19  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8762414)
+                 20  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8762777)
+                 21  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8763058)
+                 22  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8760987)
+                 23  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8761276)
+                 24  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8762284)
+                 25  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8763088)
+                 26  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8760143)
+                 27  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8763886)
+                 28  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8762447)
+                 29  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8762959)
+                 32  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8763590)
+                 33  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8761362)
+                 34  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8750477)
+                 35  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8760372)
+                 36  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8763070)
+                 37  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8761690)
+                 38  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8762440)
+                 39  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8760624)
+                 40  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8764220)
+                 41  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8773189)
+                 42  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8760403)
+                 43  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8763419)
+                 44  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8760114)
+                 45  : NETAPP   X269_WMARS01TSSX NA01 847.5GB 512B/sect (WD-WMATV8761095)
+                 48  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0KS0JF)
+                 49  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0METDF)
+                 50  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0MD2YF)
+                 51  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0MD38F)
+                 52  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0ME47F)
+                 53  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0MBJ6F)
+                 54  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0LN4TF)
+                 55  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0M9PEF)
+                 56  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0MAERF)
+                 57  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0KVNPF)
+                 58  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0MBVWF)
+                 59  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0MBE1F)
+                 60  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0MJ9AF)
+                 61  : NETAPP   X269_HSATE01TSSX A3CA 847.5GB 512B/sect (MQ0L7A8F)
+		Shelf 1: AT-FCX  Firmware rev. AT-FCX A: 38  AT-FCX B: 38
+		Shelf 2: AT-FCX  Firmware rev. AT-FCX A: 38  AT-FCX B: 38
+		Shelf 3: AT-FCX  Firmware rev. AT-FCX A: 38  AT-FCX B: 38
+                        I/O base 0x0000000000005000, size 0x100
+                        memory mapped I/O base 0xfe420000, size 0x4000
+                        memory mapped I/O base 0xfe400000, size 0x10000
+	slot 2: FC Host Adapter 2c (LSI Logic 949E rev. A.1, L-port, <OFFLINE (hard)>)
+		Board name:        LSI7404EP-LC
+		Serial Number:     P230541908
+		Firmware rev:      1.03.225.00
+		Host Loop Id:      0
+		FC Node Name:      2:000:00062b:15f979
+		FC Port Name:      1:000:00062b:15f979
+		SFP Vendor:        
+		SFP Part Number:   
+		SFP Serial Number: 
+		SFP Capabilities:  
+		Link Data Rate:    N/A
+                        I/O base 0x0000000000004400, size 0x100
+                        memory mapped I/O base 0xfe324000, size 0x4000
+                        memory mapped I/O base 0xfe310000, size 0x10000
+	slot 2: FC Host Adapter 2d (LSI Logic 949E rev. A.1, L-port, <OFFLINE (hard)>)
+		Board name:        LSI7404EP-LC
+		Serial Number:     P230541908
+		Firmware rev:      1.03.225.00
+		Host Loop Id:      0
+		FC Node Name:      2:000:00062b:15f978
+		FC Port Name:      1:000:00062b:15f978
+		SFP Vendor:        
+		SFP Part Number:   
+		SFP Serial Number: 
+		SFP Capabilities:  
+		Link Data Rate:    N/A
+                        I/O base 0x0000000000004000, size 0x100
+                        memory mapped I/O base 0xfe320000, size 0x4000
+                        memory mapped I/O base 0xfe300000, size 0x10000
+	slot 3: NVRAM (NVRAM VI)
+                Revision:           G0
+                Serial Number:      613344
+                Memory Size:        512 MB
+                DIMM Size:          512 MB
+                Battery1 Status:    Battery sufficiently charged (3942 mV)
+                Charger1 Status:    OFF
+                Running Firmware:   11 (4.8.940)
+                Cluster Interconnect Port 1: 4x copper
+                Cluster Interconnect Port 2: 4x copper
+                LIDs:               0x3420[0x345f], 0x3420[0x345f]
+	slot 4: Dual 10G Ethernet Controller CNA SFP+
+		(Dual-port, QLogic CNA 8112(8152) rev. 2)
+		e4a MAC Address:    00:c0:dd:1b:5a:6c (auto-unknown-down)
+		e4b MAC Address:    00:c0:dd:1b:5a:6e (auto-unknown-down)
+                Device Type:        ISP8112
+                        I/O base 0x0000000000003000, size 0x100
+                        memory mapped I/O base 0xfdb00000, size 0x4000
+                        memory mapped I/O base 0xfdc00000, size 0x100000
+                        I/O base 0x0000000000003400, size 0x100
+                        memory mapped I/O base 0xfdb04000, size 0x4000
+                        memory mapped I/O base 0xfdd00000, size 0x100000
+        slot 4: Fibre Channel Target Host Adapter 4a
+                (QLogic CNA 8112 (8152) rev. 2, <LINK NOT CONNECTED>)
+                Board Name:        QLE8152
+                Serial Number:     RFE1119A89357
+                Firmware rev:      5.5.2
+                Host Port Addr:    000000
+                FC Nodename:       50:0a:09:80:87:b9:5b:e0 (500a098087b95be0)
+                FC Portname:       50:0a:09:83:97:b9:5b:e0 (500a098397b95be0)
+                Connection:        No link
+                Switch Port:       Unknown
+                        I/O base 0x0000000000003800, size 0x100
+                        memory mapped I/O base 0xfdb08000, size 0x4000
+                        memory mapped I/O base 0xfde00000, size 0x100000
+        slot 4: Fibre Channel Target Host Adapter 4b
+                (QLogic CNA 8112 (8152) rev. 2, <LINK NOT CONNECTED>)
+                Board Name:        QLE8152
+                Serial Number:     RFE1119A89357
+                Firmware rev:      5.5.2
+                Host Port Addr:    000000
+                FC Nodename:       50:0a:09:80:87:b9:5b:e0 (500a098087b95be0)
+                FC Portname:       50:0a:09:84:97:b9:5b:e0 (500a098497b95be0)
+                Connection:        No link
+                Switch Port:       Unknown
+                        I/O base 0x0000000000003c00, size 0x100
+                        memory mapped I/O base 0xfdb0c000, size 0x4000
+                        memory mapped I/O base 0xfdf00000, size 0x100000

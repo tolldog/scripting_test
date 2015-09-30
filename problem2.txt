@@ -1,0 +1,15 @@
+Write a short script to connect to the REST service 
+located at: http://finance.yahoo.com/webservice/v1/symbols/NTAP/quote?format=json&view=detail
+
+Script will take as input a list of ticker symbols (replace 'NTAP' in JSON above
+for other symbols).  Max of 5 symbols.
+
+Output will be text with Symbol, Price, Change
+
+Example output:
+
+NTAP	29.27	0.32
+CSCO	26.11	0.47
+...
+
+

@@ -1,0 +1,1076 @@
+NetApp Release 8.1.2P4 7-Mode: Fri Apr 26 19:57:25 PDT 2013
+	System ID: 0118051971 (usadc-nas01b); partner ID: 0118052007 (usadc-nas01a)
+	System Serial Number: 3093853 (usadc-nas01b)
+	System Rev: G1
+	System Storage Configuration: Single-Path HA
+	System ACP Connectivity: NA
+	slot 0: System Board 2.5 GHz (System Board XI G0)
+                Model Name:         FAS6030
+                Part Number:        110-00043
+                Revision:           G0
+                Serial Number:      G7JBV2AH340008
+                BIOS version:       1.9.0
+                Loader version:     1.8
+                Agent FW version:   7
+                FPGA FW version:    7
+                Processors:         2
+                Processor ID:       0x20f51
+                Microcode Version:  0x0
+                Processor type:     Opteron
+                Memory Size:        16384 MB
+                Memory Attributes:  Node Interleaving
+                                    Bank Interleaving
+                                    Hoisting
+                                    Chipkill ECC
+                CMOS RAM Status:    OK
+	Remote LAN Module           Status: Online
+		Part Number:        110-00057
+		Revision:           D0
+		Serial Number:      430019
+		Firmware Version:   4.1
+		Mgmt MAC Address:   00:A0:98:0A:35:C4
+		Ethernet Link:      up, 100Mb, full duplex, auto-neg complete
+		Using DHCP:         yes
+	IPv4 configuration:
+		IP Address:         10.2.193.49
+		Netmask:            255.255.248.0
+		Gateway:            10.2.199.254
+	IPv6 configuration:         Disabled
+	slot 0: BGE 10/100/1000 Ethernet Controller
+		e0a MAC Address:    00:a0:98:08:5e:1e (auto-1000t-fd-up)
+		e0b MAC Address:    00:a0:98:08:5e:1f (auto-unknown-down)
+		e0c MAC Address:    00:a0:98:08:5e:20 (auto-unknown-down)
+		e0d MAC Address:    00:a0:98:08:5e:21 (auto-1000t-fd-up)
+		e0e MAC Address:    00:a0:98:08:5e:22 (auto-unknown-down)
+		e0f MAC Address:    00:a0:98:08:5e:23 (auto-100tx-fd-up)
+                Device Type:        BCM5780C
+                        memory mapped I/O base 0xfc910000, size 0x10000
+                        memory mapped I/O base 0xfc900000, size 0x10000
+                        memory mapped I/O base 0xfc930000, size 0x10000
+                        memory mapped I/O base 0xfc920000, size 0x10000
+                        memory mapped I/O base 0xfd010000, size 0x10000
+                        memory mapped I/O base 0xfd000000, size 0x10000
+                        memory mapped I/O base 0xfd030000, size 0x10000
+                        memory mapped I/O base 0xfd020000, size 0x10000
+                        memory mapped I/O base 0xfd710000, size 0x10000
+                        memory mapped I/O base 0xfd700000, size 0x10000
+                        memory mapped I/O base 0xfd730000, size 0x10000
+                        memory mapped I/O base 0xfd720000, size 0x10000
+        slot 0: ATA/IDE Adapter 0i (0x000001f0)
+                0i.0   STEC NACF1GM1U-B11   01/17/07  977MB  512B/sect (STI1M38507283191857)
+                        memory-mapped I/O base 0x000001f0, size 0x8
+                        memory-mapped I/O base 0x000003f4, size 0x4
+                        memory-mapped I/O base 0x00000170, size 0x8
+                        memory-mapped I/O base 0x00000374, size 0x4
+                        memory-mapped I/O base 0x00001000, size 0x10
+	slot 0: FC Host Adapter 0a (Dual-channel, QLogic 2322 rev. 3, 64-bit, L-port, <UP>)
+		Firmware rev:	3.3.27
+		Host Loop Id:	7	FC Node Name:	5:00a:098000:01f22d
+		FC Port Name:	5:00a:098000:01f22d
+		Cacheline size:	16	FC Packet size:	2048
+		SRAM parity:	Yes	External GBIC:	No
+		Link Data Rate:	2 Gbit
+                 16  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3FA80)
+                 17  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3DQ4C)
+                 18  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3FAEB)
+                 19  : NETAPP   X269_HJUPI01TSSX NA01 847.5GB 512B/sect (N02ZMZRL)
+                 20  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3FAJ5)
+                 21  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3DXAM)
+                 22  : NETAPP   X268_HGEMIT75SSX A90A 635.5GB 512B/sect (P8GBE29E)
+                 23  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3C068)
+                 24  : NETAPP   X269_HJUPI01TSSX NA01 847.5GB 512B/sect (N12M5DAL)
+                 25  : NETAPP   X268_HGEMIT75SSX A90A 635.5GB 512B/sect (P8G6GJ5F)
+                 26  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EGWH)
+                 27  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD38573)
+                 28  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3DWLQ)
+                 29  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD27CRR)
+                 32  : NETAPP   X269_HJUPI01TSSX NA01 847.5GB 512B/sect (N029V8GL)
+                 33  : NETAPP   X269_HJUPI01TSSX NA01 847.5GB 512B/sect (HZ147EXL)
+                 34  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD35DRZ)
+                 35  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD35DWX)
+                 36  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD1GVH8)
+                 37  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD1GJ8H)
+                 38  : NETAPP   X269_HJUPI01TSSX NA01 847.5GB 512B/sect (N02W2J6L)
+                 39  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD379DV)
+                 40  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD35E2H)
+                 41  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD34ZTH)
+                 42  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD0PLMM)
+                 43  : NETAPP   X269_HJUPI01TSSX NA01 847.5GB 512B/sect (N034LW4L)
+                 44  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD4LN7W)
+                 45  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD33QT5)
+                 48  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3BAYW)
+                 49  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD1GVH0)
+                 50  : NETAPP   X269_HJUPI01TSSX NA01 847.5GB 512B/sect (N02AHXSL)
+                 51  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3DWKV)
+                 52  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3BZ88)
+                 53  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3A92B)
+                 54  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD27BMK)
+                 55  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD30HQ0)
+                 56  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3CX0X)
+                 57  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EJS8)
+                 58  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3FATP)
+                 59  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD37TH1)
+                 60  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3A8X1)
+                 61  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD1GVHX)
+                 64  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EMTR)
+                 65  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EPWS)
+                 66  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EK9Z)
+                 67  : NETAPP   X269_HJUPI01TSSX NA01 847.5GB 512B/sect (HZ1476YL)
+                 68  : NETAPP   X269_HJUPI01TSSX NA01 847.5GB 512B/sect (N13771WL)
+                 69  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EHL0)
+                 70  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EMXB)
+                 71  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD385E6)
+                 72  : NETAPP   X269_HJUPI01TSSX NA01 847.5GB 512B/sect (N01N0NML)
+                 73  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD38506)
+                 74  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EH00)
+                 75  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EMCZ)
+                 76  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3DWX1)
+                 77  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3DWKB)
+		Shelf 1: AT-FCX  Firmware rev. AT-FCX A: 38  AT-FCX B: 38
+		Shelf 2: AT-FCX  Firmware rev. AT-FCX A: 38  AT-FCX B: 38
+		Shelf 3: AT-FCX  Firmware rev. AT-FCX A: 38  AT-FCX B: 38
+		Shelf 4: AT-FCX  Firmware rev. AT-FCX A: 38  AT-FCX B: 38
+                        I/O base 0x0000000000002000, size 0x100
+                        memory mapped I/O base 0xfca00000, size 0x1000
+	slot 0: FC Host Adapter 0b (Dual-channel, QLogic 2322 rev. 3, 64-bit, L-port, <OFFLINE (hard)>)
+		Firmware rev:	3.3.27
+		Host Loop Id:	0	FC Node Name:	5:00a:098100:01f22d
+		FC Port Name:	5:00a:098100:01f22d
+		Cacheline size:	16	FC Packet size:	2048
+		SRAM parity:	Yes	External GBIC:	No
+		Link Data Rate:	N/A
+                        I/O base 0x0000000000002400, size 0x100
+                        memory mapped I/O base 0xfca01000, size 0x1000
+	slot 0: FC Host Adapter 0c (Dual-channel, QLogic 2322 rev. 3, 64-bit, L-port, <OFFLINE (hard)>)
+		Firmware rev:	3.3.27
+		Host Loop Id:	0	FC Node Name:	5:00a:098200:01f22d
+		FC Port Name:	5:00a:098200:01f22d
+		Cacheline size:	16	FC Packet size:	2048
+		SRAM parity:	Yes	External GBIC:	No
+		Link Data Rate:	N/A
+                        I/O base 0x0000000000003000, size 0x100
+                        memory mapped I/O base 0xfcb00000, size 0x1000
+                        I/O base 0x0000000000003400, size 0x100
+                        memory mapped I/O base 0xfcb01000, size 0x1000
+	slot 0: FC Host Adapter 0e (Dual-channel, QLogic 2322 rev. 3, 64-bit, L-port, <UP>)
+		Firmware rev:	3.3.27
+		Host Loop Id:	7	FC Node Name:	5:00a:098400:01f22d
+		FC Port Name:	5:00a:098400:01f22d
+		Cacheline size:	16	FC Packet size:	2048
+		SRAM parity:	Yes	External GBIC:	No
+		Link Data Rate:	2 Gbit
+                 16  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3FARP)
+                 17  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3B3D7)
+                 18  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3DV8D)
+                 19  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (3QD19THL)
+                 20  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3ENWF)
+                 21  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EJ4K)
+                 22  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3C9MJ)
+                 23  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD396ZZ)
+                 24  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EMCC)
+                 25  : NETAPP   X269_HJUPI01TSSX NA01 847.5GB 512B/sect (N02W2JAL)
+                 26  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3E7DX)
+                 27  : NETAPP   X269_SMSKP01TSSX NA00 847.5GB 512B/sect (Z1N17ESB)
+                 28  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3ELY5)
+                 29  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EJT6)
+                 32  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3A8Y2)
+                 33  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3DXLQ)
+                 34  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EHTT)
+                 35  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3A8Y8)
+                 36  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EMXF)
+                 37  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3FAM6)
+                 38  : NETAPP   X269_HJUPI01TSSX NA01 847.5GB 512B/sect (N029W0KL)
+                 39  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EMY6)
+                 40  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3ENB9)
+                 41  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3BQ5S)
+                 42  : NETAPP   X269_HJUPI01TSSX NA01 847.5GB 512B/sect (N02WB23L)
+                 43  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3FAL6)
+                 44  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3DD6N)
+                 45  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EL02)
+                 48  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EHCF)
+                 49  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3DWJ0)
+                 50  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3330Y)
+                 51  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EJF4)
+                 52  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3BDJ1)
+                 53  : NETAPP   X269_SMSKP01TSSX NA00 847.5GB 512B/sect (Z1N08TJ7)
+                 54  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3FAHP)
+                 55  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3CHFQ)
+                 56  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EHAV)
+                 57  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3DX5A)
+                 58  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EJTE)
+                 59  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3FAEZ)
+                 60  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3DVA8)
+                 61  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3DV6A)
+                 64  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EJSJ)
+                 65  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3CV4K)
+                 66  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EJXG)
+                 67  : NETAPP   X268_HGEMIT75SSX A90A 635.5GB 512B/sect (P8G5N78A)
+                 68  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD2FA22)
+                 69  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD1GJ3P)
+                 70  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3A3VA)
+                 71  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3DWL2)
+                 72  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD5B9CV)
+                 73  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EK5Q)
+                 74  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3DXGY)
+                 75  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3EMMQ)
+                 76  : NETAPP   X268_SGLXY750SSX AQRZ 635.5GB 512B/sect (5QD3ENEY)
+                 77  : NETAPP   X269_HJUPI01TSSX NA01 847.5GB 512B/sect (N02EHZHL)
+		Shelf 1: AT-FCX  Firmware rev. AT-FCX A: 38  AT-FCX B: 38
+		Shelf 2: AT-FCX  Firmware rev. AT-FCX A: 38  AT-FCX B: 38
+		Shelf 3: AT-FCX  Firmware rev. AT-FCX A: 38  AT-FCX B: 38
+		Shelf 4: AT-FCX  Firmware rev. AT-FCX A: 38  AT-FCX B: 38
+                        I/O base 0x0000000000008000, size 0x100
+                        memory mapped I/O base 0xfd300000, size 0x1000
+	slot 0: FC Host Adapter 0f (Dual-channel, QLogic 2322 rev. 3, 64-bit, L-port, <OFFLINE (hard)>)
+		Firmware rev:	3.3.27
+		Host Loop Id:	0	FC Node Name:	5:00a:098500:01f22d
+		FC Port Name:	5:00a:098500:01f22d
+		Cacheline size:	16	FC Packet size:	2048
+		SRAM parity:	Yes	External GBIC:	No
+		Link Data Rate:	N/A
+                        I/O base 0x0000000000008400, size 0x100
+                        memory mapped I/O base 0xfd301000, size 0x1000
+	slot 0: FC Host Adapter 0g (Dual-channel, QLogic 2322 rev. 3, 64-bit, L-port, <OFFLINE (hard)>)
+		Firmware rev:	3.3.27
+		Host Loop Id:	0	FC Node Name:	5:00a:098600:01f22d
+		FC Port Name:	5:00a:098600:01f22d
+		Cacheline size:	16	FC Packet size:	2048
+		SRAM parity:	Yes	External GBIC:	No
+		Link Data Rate:	N/A
+                        I/O base 0x0000000000009000, size 0x100
+                        memory mapped I/O base 0xfd400000, size 0x1000
+                        I/O base 0x0000000000009400, size 0x100
+                        memory mapped I/O base 0xfd401000, size 0x1000
+	slot 1: NVRAM (NVRAM VI)
+                Revision:           G0
+                Serial Number:      611459
+                Memory Size:        512 MB
+                DIMM Size:          512 MB
+                Battery1 Status:    Battery sufficiently charged (3996 mV)
+                Charger1 Status:    OFF
+                Running Firmware:   11 (4.8.940)
+                Cluster Interconnect Port 1: 4x copper
+                Cluster Interconnect Port 2: 4x copper
+                LIDs:               0x2cc3[0x2ce7], 0x2cc3[0x2ce7]
+	slot 2: SAS Host Adapter 2a (PMC-Sierra PM8001 rev. C, SAS, <UP>)
+		MFG Part Number:    USI 6086-000010-04 rev. MP V4.6
+		Part number:        111-00341+D0
+		Serial number:      ST074C3YAY1
+		Date Code:          20120330
+		Firmware rev:       01.11.00.00
+		Base WWN:           5:00e004:0001cad:48
+		Phy State:          [0] Enabled, 3.0 Gb/s
+		                    [1] Enabled, 3.0 Gb/s
+		                    [2] Enabled, 3.0 Gb/s
+		                    [3] Enabled, 3.0 Gb/s
+		QSFP Vendor:        Molex Inc.      
+		QSFP Part Number:   112-00178+A0    
+		QSFP Type:          Passive Copper 5m ID:00
+		QSFP Serial Number: 106920197
+                00.0 : NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z292EGER)
+                00.1 : NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z292EGRF)
+                00.2 : NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z292EH03)
+                00.3 : NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z292EFLM)
+                00.4 : NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z292DKN5)
+                00.5 : NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z292EGAY)
+                00.6 : NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z292EFLT)
+                00.7 : NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z292EGWV)
+                00.8 : NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z292EDZQ)
+                00.9 : NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z292EE17)
+                00.10: NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z292EC8D)
+                00.11: NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z292DKMG)
+                00.12: NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z292BHLC)
+                00.13: NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z292C2PH)
+                00.14: NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z292C2AC)
+                00.15: NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z292DKF5)
+                00.16: NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z292C32D)
+                00.17: NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z292C2KN)
+                00.18: NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z29117H7)
+                00.19: NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z292C2M7)
+                00.20: NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z292EBY2)
+                00.21: NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z292C2CQ)
+                00.22: NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z292EGKW)
+                00.23: NETAPP   X308_SMNRY03TSSM NA01 2538.5GB 512B/sect (Z292EDRY)
+		Shelf   0: IOM3  Firmware rev. IOM3 A: 0152 IOM3 B: 0152
+	slot 2: SAS Host Adapter 2b (PMC-Sierra PM8001 rev. C, SAS, <OFFLINE (hard)>)
+		MFG Part Number:    USI 6086-000010-04 rev. MP V4.6
+		Part number:        111-00341+D0
+		Serial number:      ST074C3YAY1
+		Date Code:          20120330
+		Firmware rev:       01.11.00.00
+		Base WWN:           5:00e004:0001cad:4c
+		Phy State:          [4] Disabled
+		                    [5] Disabled
+		                    [6] Disabled
+		                    [7] Disabled
+		QSFP Vendor:        not available
+		QSFP Part Number:   not available
+		QSFP Type:          not available
+		QSFP Serial Number: not available
+                        memory mapped I/O base 0xfda30000, size 0x10000
+                        memory mapped I/O base 0xfda20000, size 0x10000
+                        memory mapped I/O base 0x00000000fda10000, size 0x10000
+                        memory mapped I/O base 0x00000000fda00000, size 0x10000
+	slot 2: SAS Host Adapter 2c (PMC-Sierra PM8001 rev. C, SAS, <OFFLINE (hard)>)
+		MFG Part Number:    USI 6086-000010-04 rev. MP V4.6
+		Part number:        111-00341+D0
+		Serial number:      ST074C3YAY1
+		Date Code:          20120330
+		Firmware rev:       01.11.00.00
+		Base WWN:           5:00e004:0001cad:40
+		Phy State:          [0] Disabled
+		                    [1] Disabled
+		                    [2] Disabled
+		                    [3] Disabled
+		QSFP Vendor:        not available
+		QSFP Part Number:   not available
+		QSFP Type:          not available
+		QSFP Serial Number: not available
+	slot 2: SAS Host Adapter 2d (PMC-Sierra PM8001 rev. C, SAS, <OFFLINE (hard)>)
+		MFG Part Number:    USI 6086-000010-04 rev. MP V4.6
+		Part number:        111-00341+D0
+		Serial number:      ST074C3YAY1
+		Date Code:          20120330
+		Firmware rev:       01.11.00.00
+		Base WWN:           5:00e004:0001cad:44
+		Phy State:          [4] Disabled
+		                    [5] Disabled
+		                    [6] Disabled
+		                    [7] Disabled
+		QSFP Vendor:        not available
+		QSFP Part Number:   not available
+		QSFP Type:          not available
+		QSFP Serial Number: not available
+                        memory mapped I/O base 0xfd930000, size 0x10000
+                        memory mapped I/O base 0xfd920000, size 0x10000
+                        memory mapped I/O base 0x00000000fd910000, size 0x10000
+                        memory mapped I/O base 0x00000000fd900000, size 0x10000
+	slot 5: FC Host Adapter 5a (LSI Logic 949E rev. A.1, L-port, <UP>)
+		Board name:        LSI7404EP-LC
+		Serial Number:     P017293407
+		Firmware rev:      1.03.225.00
+		Host Loop Id:      7
+		FC Node Name:      2:000:00062b:135ba7
+		FC Port Name:      1:000:00062b:135ba7
+		SFP Vendor:        PICOLIGHT
+		SFP Part Number:   PLRXPL-VE-SG4-26
+		SFP Serial Number: C651RR35B
+		SFP Capabilities:  1, 2 or 4 Gbit
+		Link Data Rate:    2 Gbit
+                 16  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79055E0)
+                 17  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790582G)
+                 18  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79057TD)
+                 19  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79057TL)
+                 20  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790572Y)
+                 21  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7905701)
+                 22  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056YJ)
+                 23  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056TV)
+                 24  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056YD)
+                 25  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056TT)
+                 26  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7905743)
+                 27  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056TL)
+                 28  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056ST)
+                 29  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056TC)
+                 32  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056C6)
+                 33  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790569J)
+                 34  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P840BRA7)
+                 35  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790557V)
+                 36  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79055VK)
+                 37  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790562R)
+                 38  : NETAPP   X279_S15K6288F15 NA03 272.0GB 520B/sect (3QP2YXYR000090229RPK)
+                 39  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79054VF)
+                 40  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056E3)
+                 41  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056H3)
+                 42  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79054LS)
+                 43  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790531H)
+                 44  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056H5)
+                 45  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79054JT)
+                 48  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056LM)
+                 49  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056LT)
+                 50  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056MS)
+                 51  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056CG)
+                 52  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056LH)
+                 53  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056M4)
+                 54  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790523S)
+                 55  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P8B0H810)
+                 56  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056M7)
+                 57  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052D2)
+                 58  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053V4)
+                 59  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052D7)
+                 60  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053V9)
+                 61  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052CC)
+                 64  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053LH)
+                 65  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053MF)
+                 66  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79051CW)
+                 67  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053L5)
+                 68  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053L3)
+                 69  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053L6)
+                 70  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79051UF)
+                 71  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79051VW)
+                 72  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79051UK)
+                 73  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053NU)
+                 74  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053MW)
+                 75  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79051LR)
+                 76  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79051V1)
+                 77  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79051V0)
+                 80  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056KT)
+                 81  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7905583)
+                 82  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7905762)
+                 83  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790574G)
+                 84  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056JE)
+                 85  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056HP)
+                 86  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056J2)
+                 87  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056HT)
+                 88  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056D4)
+                 89  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR18AD700007619R2RX)
+                 90  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056J7)
+                 91  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056J3)
+                 92  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056NJ)
+                 93  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056KP)
+                 96  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790535A)
+                 97  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790533N)
+                 98  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053KS)
+                 99  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79050VM)
+                100  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053HB)
+                101  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7905353)
+                102  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790535F)
+                103  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7905355)
+                104  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053LN)
+                105  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053FG)
+                106  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053GH)
+                107  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053GC)
+                108  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053GG)
+                109  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053M9)
+		Shelf 1: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 2: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 3: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 4: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 5: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 6: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+                        I/O base 0x0000000000005400, size 0x100
+                        memory mapped I/O base 0xfcd24000, size 0x4000
+                        memory mapped I/O base 0xfcd10000, size 0x10000
+	slot 5: FC Host Adapter 5b (LSI Logic 949E rev. A.1, L-port, <UP>)
+		Board name:        LSI7404EP-LC
+		Serial Number:     P017293407
+		Firmware rev:      1.03.225.00
+		Host Loop Id:      7
+		FC Node Name:      2:000:00062b:135ba6
+		FC Port Name:      1:000:00062b:135ba6
+		SFP Vendor:        PICOLIGHT
+		SFP Part Number:   PLRXPL-VE-SG4-26
+		SFP Serial Number: C651RR35C
+		SFP Capabilities:  1, 2 or 4 Gbit
+		Link Data Rate:    2 Gbit
+                 16  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9KJ00009813N8G3)
+                 17  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J7K500009814PGG0)
+                 18  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9VX00009813MP74)
+                 19  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4KKZX00007613RL5J)
+                 20  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J98800009813B8K1)
+                 21  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JARK00009813N8AE)
+                 22  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4KJSJ00009814PG6V)
+                 23  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J8ED00009813B8GS)
+                 24  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4KLJ400009814PF74)
+                 25  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9J000009814PFZQ)
+                 26  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JPJK00007617G3TK)
+                 27  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4HW3500009813MPE4)
+                 28  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JAMK00009813B8EG)
+                 29  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9EJ00009813MA8M)
+                 32  : NETAPP   X279_HVPBP288F15 NA02 272.0GB 520B/sect (JLWXLV6C)
+                 33  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J7MR00009814PH2E)
+                 34  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JADF00009813B8DF)
+                 35  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9LH00009813N8LU)
+                 36  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J7MD00009814PG5V)
+                 37  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J7CT00007626QCGH)
+                 38  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J8EE00009813N88B)
+                 39  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J8B300009813N8JR)
+                 40  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4HRPL00009813JGLG)
+                 41  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J7KA00009814PFZR)
+                 42  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4KLBT00009814PF7M)
+                 43  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JAMX00009813MAUB)
+                 44  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9MX00009813B8QY)
+                 45  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J7MN00009814PF46)
+                 48  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JPLA000098151JRL)
+                 49  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JAWF00009813B8FU)
+                 50  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4KL1M00009814PG3J)
+                 51  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JAEC00009813N8C5)
+                 52  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9LA00009813N8BV)
+                 53  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JAGM00009813B8J4)
+                 54  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J8CM00009813MP4M)
+                 55  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P8C0HH3N)
+                 56  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J8A000009813N85U)
+                 57  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR3M5CE00009730V2JR)
+                 58  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9N000009813N8B8)
+                 59  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4HGMM00009813MAV7)
+                 60  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4KL3Z00009814C90W)
+                 61  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JA6F00009813B97Y)
+                 64  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9FC00009813B8W8)
+                 65  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JADE00009813MNN5)
+                 66  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JADC00009813B8SR)
+                 67  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9MC00009813N89D)
+                 68  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J95E00009813MPDY)
+                 69  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JAAB00009813MNV7)
+                 70  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JAWZ00009813MAJW)
+                 71  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JALD00009813B8DX)
+                 72  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J94S00009813N88J)
+                 73  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4HT4N000076102GYW)
+                 74  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9BS00009813N8Q4)
+                 75  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4HHHD00007612S84D)
+                 76  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JA4J00009813MNSE)
+                 77  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J8E500009813MP4U)
+                 80  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4KL6S00009814PHCY)
+                 81  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JA8700009813B8PZ)
+                 82  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9RA00009813N8QF)
+                 83  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4KL2500007704QLTZ)
+                 84  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J7GR00007704QNAY)
+                 85  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9X600009813N8PR)
+                 86  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4KLH300009814PH4M)
+                 87  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9KH00009813N85T)
+                 88  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J7SG00009814PF5Z)
+                 89  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4KLF800009814PF9W)
+                 90  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J7TM00009814C954)
+                 91  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J6R400009814PF8P)
+                 92  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J6VV00009814PH03)
+                 93  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J7DV00007704QLU1)
+                 96  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J95000009813MPC3)
+                 97  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JAFB00009813N926)
+                 98  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J86900009814C9G4)
+                 99  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9YA00009813MP4R)
+                100  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J81S00009814PF5T)
+                101  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4KKZZ00009814PG1Y)
+                102  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J89L00009813N8FV)
+                103  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JB0M00009813B8NJ)
+                104  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4KLG200009814C8YW)
+                105  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR130RV000076130LTJ)
+                106  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JASC00009813MA9V)
+                107  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9R700009813B8QD)
+                108  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J6PV00009814PG7R)
+                109  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JAMR00009813MA99)
+		Shelf 1: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 2: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 3: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 4: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 5: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 6: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+                        I/O base 0x0000000000005000, size 0x100
+                        memory mapped I/O base 0xfcd20000, size 0x4000
+                        memory mapped I/O base 0xfcd00000, size 0x10000
+	slot 5: FC Host Adapter 5c (LSI Logic 949E rev. A.1, L-port, <OFFLINE (hard)>)
+		Board name:        LSI7404EP-LC
+		Serial Number:     P017293407
+		Firmware rev:      1.03.225.00
+		Host Loop Id:      0
+		FC Node Name:      2:000:00062b:135ba5
+		FC Port Name:      1:000:00062b:135ba5
+		SFP Vendor:        PICOLIGHT
+		SFP Part Number:   PLRXPL-VE-SG4-26
+		SFP Serial Number: C723RR060
+		SFP Capabilities:  1, 2 or 4 Gbit
+		Link Data Rate:    N/A
+                        I/O base 0x0000000000004400, size 0x100
+                        memory mapped I/O base 0xfcc24000, size 0x4000
+                        memory mapped I/O base 0xfcc10000, size 0x10000
+	slot 5: FC Host Adapter 5d (LSI Logic 949E rev. A.1, L-port, <OFFLINE (hard)>)
+		Board name:        LSI7404EP-LC
+		Serial Number:     P017293407
+		Firmware rev:      1.03.225.00
+		Host Loop Id:      0
+		FC Node Name:      2:000:00062b:135ba4
+		FC Port Name:      1:000:00062b:135ba4
+		SFP Vendor:        PICOLIGHT
+		SFP Part Number:   PLRXPL-VE-SG4-26
+		SFP Serial Number: C647RR3KM
+		SFP Capabilities:  1, 2 or 4 Gbit
+		Link Data Rate:    N/A
+                        I/O base 0x0000000000004000, size 0x100
+                        memory mapped I/O base 0xfcc20000, size 0x4000
+                        memory mapped I/O base 0xfcc00000, size 0x10000
+	slot 6: FC Host Adapter 6a (LSI Logic 949E rev. A.1, L-port, <UP>)
+		Board name:        LSI7404EP-LC
+		Serial Number:     P022823407
+		Firmware rev:      1.03.225.00
+		Host Loop Id:      7
+		FC Node Name:      2:000:00062b:135bb7
+		FC Port Name:      1:000:00062b:135bb7
+		SFP Vendor:        FINISAR
+		SFP Part Number:   FTLF8524P2BNL-LS
+		SFP Serial Number: U971EC5
+		SFP Capabilities:  1, 2 or 4 Gbit
+		Link Data Rate:    2 Gbit
+                 16  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P890F4M6)
+                 17  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7904SSD)
+                 18  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052BJ)
+                 19  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052KY)
+                 20  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79051VM)
+                 21  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790511B)
+                 22  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052LF)
+                 23  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79050VK)
+                 24  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79050VN)
+                 25  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79050SY)
+                 26  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79050WE)
+                 27  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052KJ)
+                 28  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79050V4)
+                 29  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052M9)
+                 32  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79057VF)
+                 33  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7905910)
+                 34  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7905923)
+                 35  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79057VJ)
+                 36  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7905932)
+                 37  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790590B)
+                 38  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7905939)
+                 39  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79058UK)
+                 40  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790592C)
+                 41  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790592S)
+                 42  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7905925)
+                 43  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790592U)
+                 44  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7905921)
+                 45  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790593D)
+                 48  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790542R)
+                 49  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790543S)
+                 50  : NETAPP   X279_HVPBP288F15 NA02 272.0GB 520B/sect (JLWX1M1C)
+                 51  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052BS)
+                 52  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7905417)
+                 53  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79054BK)
+                 54  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79054DE)
+                 55  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7905441)
+                 56  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052BE)
+                 57  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79054NL)
+                 58  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052GD)
+                 59  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052BG)
+                 60  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79054M1)
+                 61  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790542H)
+                 64  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79051MA)
+                 65  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052M0)
+                 66  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAXPXDDA)
+                 67  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790545P)
+                 68  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79054W9)
+                 69  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7905530)
+                 70  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790552N)
+                 71  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79051L3)
+                 72  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7200MM3)
+                 73  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7905285)
+                 74  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79051J6)
+                 75  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79051M2)
+                 76  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7904YMD)
+                 77  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052ES)
+                 80  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056GS)
+                 81  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056BM)
+                 82  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053CG)
+                 83  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056EJ)
+                 84  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056CV)
+                 85  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056EA)
+                 86  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053CW)
+                 87  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAX8RE9A)
+                 88  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056DE)
+                 89  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056G6)
+                 90  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056FY)
+                 91  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79055Y2)
+                 92  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056D5)
+                 93  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79055KW)
+                 96  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79055PL)
+                 97  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056GA)
+                 98  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790569P)
+                 99  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79055SN)
+                100  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056H6)
+                101  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056B1)
+                102  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790569N)
+                103  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79055P4)
+                104  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056EE)
+                105  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056AC)
+                106  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056G8)
+                107  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790569W)
+                108  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056AA)
+                109  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056G5)
+		Shelf 1: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 2: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 3: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 4: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 5: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 6: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+                        I/O base 0x0000000000007400, size 0x100
+                        memory mapped I/O base 0xfd224000, size 0x4000
+                        memory mapped I/O base 0xfd210000, size 0x10000
+	slot 6: FC Host Adapter 6b (LSI Logic 949E rev. A.1, L-port, <UP>)
+		Board name:        LSI7404EP-LC
+		Serial Number:     P022823407
+		Firmware rev:      1.03.225.00
+		Host Loop Id:      7
+		FC Node Name:      2:000:00062b:135bb6
+		FC Port Name:      1:000:00062b:135bb6
+		SFP Vendor:        FINISAR
+		SFP Part Number:   FTLF8524P2BNL-LS
+		SFP Serial Number: U971RTU
+		SFP Capabilities:  1, 2 or 4 Gbit
+		Link Data Rate:    2 Gbit
+                 16  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J94W00009813N8KT)
+                 17  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J7Q200009813B962)
+                 18  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J7KJ00009814C8UU)
+                 19  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4KL7V00009814PGAU)
+                 20  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J8DN00009813B9CM)
+                 21  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J8BP00009813MP2E)
+                 22  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J8BH00009813MP41)
+                 23  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J87T00009813N8GB)
+                 24  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9GR00009813B9AK)
+                 25  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4KL1100007703HTZY)
+                 26  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JA2600009813N8MN)
+                 27  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JACL00009813B8NQ)
+                 28  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9NL00009813MA24)
+                 29  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9WR00009814PGP3)
+                 32  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J7K700009814PGGZ)
+                 33  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J87500009813N8JQ)
+                 34  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4KLB600009814PHB0)
+                 35  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9MP00009813N8QW)
+                 36  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JA6700009813MP4H)
+                 37  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9M000009813N8H8)
+                 38  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J8CH00009813N8VM)
+                 39  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J7FC000097404VXT)
+                 40  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JAC000009813MNL6)
+                 41  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JAAK00009813N8U6)
+                 42  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J12900007617G353)
+                 43  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9L900009813B8QC)
+                 44  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JAG100009813B95P)
+                 45  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JAJC00009813B8F5)
+                 48  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9GP00009813N8PB)
+                 49  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JAVD00009813B8EY)
+                 50  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9S300009813N8S2)
+                 51  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9V400009813N8LD)
+                 52  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4KLGC00009814PGGB)
+                 53  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J7L400009814PGA1)
+                 54  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J8DG00009813N8PL)
+                 55  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JAJH00009813B8EE)
+                 56  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J7JL00009814PH6C)
+                 57  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JAJ600009813N8DW)
+                 58  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JA2000009813N8LY)
+                 59  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J6RG00009814PFB6)
+                 60  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4KJSL00009814PF8S)
+                 61  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J95N00009813N8J2)
+                 64  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J80K00009814PF8Z)
+                 65  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9AD00009813N87Y)
+                 66  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J7F600009814PGX5)
+                 67  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J8DA00009813N8FX)
+                 68  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J8AH00009814PGPX)
+                 69  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J98V00009813N8AP)
+                 70  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P840C0SS)
+                 71  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JAED00009814PG5B)
+                 72  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JAPC00009814PG82)
+                 73  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JJMZ00009813MPGN)
+                 74  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4JRZW00009813N8NV)
+                 75  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4J9N400009813B8K3)
+                 76  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4KL8400009814C933)
+                 77  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR4KL4500009814PHB1)
+                 80  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052YE)
+                 81  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052NK)
+                 82  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052S1)
+                 83  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052S7)
+                 84  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052WS)
+                 85  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAXRGTUA)
+                 86  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052RY)
+                 87  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790532K)
+                 88  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052RV)
+                 89  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790534T)
+                 90  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052RH)
+                 91  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790533W)
+                 92  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P850C5BS)
+                 93  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7905334)
+                 96  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790533K)
+                 97  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052S2)
+                 98  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052PK)
+                 99  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052PA)
+                100  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79051NE)
+                101  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79051ND)
+                102  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052P8)
+                103  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79055EB)
+                104  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790551D)
+                105  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79054SU)
+                106  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAX9DLHA)
+                107  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790546U)
+                108  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790553E)
+                109  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790549J)
+		Shelf 1: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 2: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 3: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 4: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 5: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 6: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+                        I/O base 0x0000000000007000, size 0x100
+                        memory mapped I/O base 0xfd220000, size 0x4000
+                        memory mapped I/O base 0xfd200000, size 0x10000
+	slot 6: FC Host Adapter 6c (LSI Logic 949E rev. A.1, L-port, <OFFLINE (hard)>)
+		Board name:        LSI7404EP-LC
+		Serial Number:     P022823407
+		Firmware rev:      1.03.225.00
+		Host Loop Id:      0
+		FC Node Name:      2:000:00062b:135bb5
+		FC Port Name:      1:000:00062b:135bb5
+		SFP Vendor:        FINISAR
+		SFP Part Number:   FTLF8524P2BNL-LS
+		SFP Serial Number: U971SDK
+		SFP Capabilities:  1, 2 or 4 Gbit
+		Link Data Rate:    N/A
+                        I/O base 0x0000000000006400, size 0x100
+                        memory mapped I/O base 0xfd124000, size 0x4000
+                        memory mapped I/O base 0xfd110000, size 0x10000
+	slot 6: FC Host Adapter 6d (LSI Logic 949E rev. A.1, L-port, <OFFLINE (hard)>)
+		Board name:        LSI7404EP-LC
+		Serial Number:     P022823407
+		Firmware rev:      1.03.225.00
+		Host Loop Id:      0
+		FC Node Name:      2:000:00062b:135bb4
+		FC Port Name:      1:000:00062b:135bb4
+		SFP Vendor:        FINISAR
+		SFP Part Number:   FTLF8524P2BNL-LS
+		SFP Serial Number: U971J6Q
+		SFP Capabilities:  1, 2 or 4 Gbit
+		Link Data Rate:    N/A
+                        I/O base 0x0000000000006000, size 0x100
+                        memory mapped I/O base 0xfd120000, size 0x4000
+                        memory mapped I/O base 0xfd100000, size 0x10000
+	slot 7: FC Host Adapter 7a (LSI Logic 949E rev. A.1, L-port, <UP>)
+		Board name:        LSI7404EP-LC
+		Serial Number:     P021263407
+		Firmware rev:      1.03.225.00
+		Host Loop Id:      7
+		FC Node Name:      2:000:00062b:12e247
+		FC Port Name:      1:000:00062b:12e247
+		SFP Vendor:        PICOLIGHT
+		SFP Part Number:   PLRXPL-VE-SG4-26
+		SFP Serial Number: C732RR0HD
+		SFP Capabilities:  1, 2 or 4 Gbit
+		Link Data Rate:    2 Gbit
+                 16  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790548K)
+                 17  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053PF)
+                 18  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053SK)
+                 19  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053PD)
+                 20  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053PR)
+                 21  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053Y7)
+                 22  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053VA)
+                 23  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053UJ)
+                 24  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053UR)
+                 25  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053UF)
+                 26  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053T3)
+                 27  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053S5)
+                 28  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053RL)
+                 29  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053SJ)
+                 32  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR1TJYY00007641EP3L)
+                 33  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79054DL)
+                 34  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79054BH)
+                 35  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAXRA10A)
+                 36  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79054JG)
+                 37  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79054B9)
+                 38  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79054J5)
+                 39  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79054J3)
+                 40  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79054L5)
+                 41  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79054FA)
+                 42  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790545V)
+                 43  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79054N9)
+                 44  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79054MU)
+                 45  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7905451)
+                 48  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056TJ)
+                 49  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056NY)
+                 50  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056TK)
+                 51  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056T3)
+                 52  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056JB)
+                 53  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056DU)
+                 54  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056LA)
+                 55  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056RU)
+                 56  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056T4)
+                 57  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056SK)
+                 58  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056P3)
+                 59  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056PG)
+                 60  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056RJ)
+                 61  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056K1)
+                 64  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79058HV)
+                 65  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79058KA)
+                 66  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79058JT)
+                 67  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79058GR)
+                 68  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79058GK)
+                 69  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79058HN)
+                 70  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79057VR)
+                 71  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P910HHMS)
+                 72  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79058GE)
+                 73  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79058J2)
+                 74  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79058HW)
+                 75  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79058GA)
+                 76  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79058P2)
+                 77  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79058JA)
+                 80  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWEUMBA)
+                 81  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWERG8A)
+                 82  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWEDV8A)
+                 83  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWEW11A)
+                 84  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWEW14A)
+                 85  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWEUGNA)
+                 86  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR2CH01000097162UW7)
+                 87  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWEUE6A)
+                 88  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWE903A)
+                 89  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056D6)
+                 90  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWEWBUA)
+                 91  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWEUL3A)
+                 92  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWEHJ4A)
+                 93  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWE10DA)
+                 96  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWBT6AA)
+                 97  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWEJ9EA)
+                 98  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWENEXA)
+                 99  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWE4D0A)
+                100  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWELJEA)
+                101  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWESXBA)
+                102  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWENZ4A)
+                103  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWEP67A)
+                104  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWEUPSA)
+                105  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWESDDA)
+                106  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWERLYA)
+                107  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWEW4RA)
+                108  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWERW6A)
+                109  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWEW12A)
+		Shelf 1: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 2: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 3: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 4: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 5: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 6: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+                        I/O base 0x000000000000b400, size 0x100
+                        memory mapped I/O base 0xfde24000, size 0x4000
+                        memory mapped I/O base 0xfde10000, size 0x10000
+	slot 7: FC Host Adapter 7b (LSI Logic 949E rev. A.1, L-port, <UP>)
+		Board name:        LSI7404EP-LC
+		Serial Number:     P021263407
+		Firmware rev:      1.03.225.00
+		Host Loop Id:      7
+		FC Node Name:      2:000:00062b:12e246
+		FC Port Name:      1:000:00062b:12e246
+		SFP Vendor:        PICOLIGHT
+		SFP Part Number:   PLRXPL-VE-SG4-26
+		SFP Serial Number: C732RR0H8
+		SFP Capabilities:  1, 2 or 4 Gbit
+		Link Data Rate:    2 Gbit
+                 16  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79050VL)
+                 17  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P8B0H4UE)
+                 18  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7905515)
+                 19  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790549G)
+                 20  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790546S)
+                 21  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79054R5)
+                 22  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79054TR)
+                 23  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79055DG)
+                 24  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790551N)
+                 25  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790552K)
+                 26  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAXLX43A)
+                 27  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790551F)
+                 28  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052LS)
+                 29  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790552S)
+                 32  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790557A)
+                 33  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79055DW)
+                 34  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7905579)
+                 35  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790581M)
+                 36  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053U1)
+                 37  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790593A)
+                 38  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7905920)
+                 39  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79055DB)
+                 40  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790585U)
+                 41  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79054UJ)
+                 42  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790562G)
+                 43  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79055AP)
+                 44  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790560D)
+                 45  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790539M)
+                 48  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052Y3)
+                 49  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052WB)
+                 50  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052U7)
+                 51  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052TJ)
+                 52  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052U9)
+                 53  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052W4)
+                 54  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052YA)
+                 55  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052SS)
+                 56  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052T3)
+                 57  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052UC)
+                 58  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052WA)
+                 59  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052SC)
+                 60  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P7905308)
+                 61  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79052YV)
+                 64  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790562T)
+                 65  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790562U)
+                 66  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79055S3)
+                 67  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790558P)
+                 68  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790562P)
+                 69  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790569Y)
+                 70  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053D0)
+                 71  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053DB)
+                 72  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79053D8)
+                 73  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79055A6)
+                 74  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P790547N)
+                 75  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79055KA)
+                 76  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79056DN)
+                 77  : NETAPP   X276_FAL9E288F10 NA05 272.0GB 520B/sect (DH07P79055PC)
+                 80  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR3XH5R000097401M70)
+                 81  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR3WC7E000097403E0C)
+                 82  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR3XFXX00009740WQVQ)
+                 83  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR3W9QT00009740WP0H)
+                 84  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR3XDWF000097401JAZ)
+                 85  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR3XJ4900009740WP80)
+                 86  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR3XGNB000097403BSL)
+                 87  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR3WJCQ0000974002Q2)
+                 88  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR3WADF00009740XVF2)
+                 89  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR3XH5F000097403CTH)
+                 90  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR3WKML00009740XW3Z)
+                 91  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR3XEVD00009740XVW7)
+                 92  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR3XJ2W00009740WP7X)
+                 93  : NETAPP   X276_S10K7288F10 NA07 272.0GB 520B/sect (3KR3XKGV00009740WNWF)
+                 96  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWEUK7A)
+                 97  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWERJ9A)
+                 98  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAW9GMVA)
+                 99  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWDJV9A)
+                100  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWEUGMA)
+                101  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWE1UVA)
+                102  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWEUN6A)
+                103  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWB9TMA)
+                104  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWBYRHA)
+                105  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWESV5A)
+                106  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWEUPPA)
+                107  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWEW9LA)
+                108  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWDWP7A)
+                109  : NETAPP   X276_HPYTA288F10 NA04 272.0GB 520B/sect (VAWEW3BA)
+		Shelf 1: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 2: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 3: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 4: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 5: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+		Shelf 6: ESH4  Firmware rev. ESH A: 14  ESH B: 14
+                        I/O base 0x000000000000b000, size 0x100
+                        memory mapped I/O base 0xfde20000, size 0x4000
+                        memory mapped I/O base 0xfde00000, size 0x10000
+	slot 7: FC Host Adapter 7c (LSI Logic 949E rev. A.1, L-port, <OFFLINE (hard)>)
+		Board name:        LSI7404EP-LC
+		Serial Number:     P021263407
+		Firmware rev:      1.03.225.00
+		Host Loop Id:      0
+		FC Node Name:      2:000:00062b:12e245
+		FC Port Name:      1:000:00062b:12e245
+		SFP Vendor:        PICOLIGHT
+		SFP Part Number:   PLRXPL-VE-SG4-26
+		SFP Serial Number: C732RR0MM
+		SFP Capabilities:  1, 2 or 4 Gbit
+		Link Data Rate:    N/A
+                        I/O base 0x000000000000a400, size 0x100
+                        memory mapped I/O base 0xfdd24000, size 0x4000
+                        memory mapped I/O base 0xfdd10000, size 0x10000
+	slot 7: FC Host Adapter 7d (LSI Logic 949E rev. A.1, L-port, <OFFLINE (hard)>)
+		Board name:        LSI7404EP-LC
+		Serial Number:     P021263407
+		Firmware rev:      1.03.225.00
+		Host Loop Id:      0
+		FC Node Name:      2:000:00062b:12e244
+		FC Port Name:      1:000:00062b:12e244
+		SFP Vendor:        PICOLIGHT
+		SFP Part Number:   PLRXPL-VE-SG4-26
+		SFP Serial Number: C732RR0H9
+		SFP Capabilities:  1, 2 or 4 Gbit
+		Link Data Rate:    N/A
+                        I/O base 0x000000000000a000, size 0x100
+                        memory mapped I/O base 0xfdd20000, size 0x4000
+                        memory mapped I/O base 0xfdd00000, size 0x10000
+	slot 8: Dual 10G Ethernet Controller T320E-XFP
+		Device Type:        CT-31-1
+		Version Number:	    T3-SRAM1.1.0-BR1040-20-E0-FW7.7.209-DR04
+		Serial Number:	    PT04100178      
+		e8a MAC Address:    00:07:43:06:49:2c (auto-10g_sr-fd-up)
+		e8b MAC Address:    00:07:43:06:49:2d (auto-10g_sr-fd-up)
+                        memory mapped I/O base 0xfdf01000, size 0x1000
+                        memory mapped I/O base 0xfe000000, size 0x800000
+                        memory mapped I/O base 0xfdf00000, size 0x1000

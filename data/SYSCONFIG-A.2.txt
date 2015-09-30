@@ -1,11 +1,11 @@
 NetApp Release 8.1.2P4 7-Mode: Fri Apr 26 19:57:25 PDT 2013
-	System ID: 0118053856 (o900sal1900); partner ID: 0118053919 (o900sal1800)
-	System Serial Number: 3092463 (o900sal1900)
+	System ID: 0118063856 (sal1900); partner ID: 1118053912 (sal1800)
+	System Serial Number: 103092463 (sal1900)
 	System Rev: A3
 	System Storage Configuration: Mixed-Path HA
 	System ACP Connectivity: NA
 	slot 0: System Board 2.4 GHz (System Board XII A1)
-                Model Name:         FAS3040
+                Model Name:         FAS6040
                 Part Number:        110-00045
                 Revision:           A1
                 Serial Number:      430207

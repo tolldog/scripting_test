@@ -1,6 +1,6 @@
 NetApp Release 8.1.2P4 7-Mode: Fri Apr 26 19:57:25 PDT 2013
-	System ID: 0118051971 (usadc-nas01b); partner ID: 0118052007 (usadc-nas01a)
-	System Serial Number: 3093853 (usadc-nas01b)
+	System ID: 0118051971 (usadc1b); partner ID: 0118052007 (usadc1a)
+	System Serial Number: 1003093853 (usadc1b)
 	System Rev: G1
 	System Storage Configuration: Single-Path HA
 	System ACP Connectivity: NA
